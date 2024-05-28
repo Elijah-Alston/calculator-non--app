@@ -5,46 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Calculator</title>
+    <script src="scripts/index.js"></script>
 </head>
 <body>
 
     <div class="wrapper">
-<div class="display">0 </div>
+<div class="display">
+
+    <div class="math-dis" id="math">0</div>
+ 
+</div>
 
 
 
 
 <div class="buttons-Wrapper">
 
-    <button class="but-plus">+</button>
-    <button class="but-divide">÷</button>
-    <button class="but-multi">X</button>
-    <button class="but-minus">-</button>
+    <button class="but-plus" data-action="add">+</button>
+    <button class="but-divide" data-action="divide">÷</button>
+    <button class="but-multi" data-action="multiply">&times</button>
+    <button class="but-minus" data-action="subtract">-</button>
 
     <div class="top-row">
    
 
 </div>
-<button class="but-equal">=</button>
+<button class="but-equal" onclick="nofun()">=</button>
 <div class=".equal-wrapper">
 
 </div>
 
 
 <div class="num-wrapper">
-    <button class="but-num">1</button>
-    <button class="but-num">2</button>
-    <button class="but-num">3</button>
-    <button class="but-num">4</button>
-    <button class="but-num">5</button>
-    <button class="but-num">6</button>
-    <button class="but-num">7</button>
+    <button class="but-num" id="demo">9</button>
     <button class="but-num">8</button>
-    <button class="but-num">9</button>
+    <button class="but-num">7</button>
+    <button class="but-num">6</button>
+    <button class="but-num">5</button>
+    <button class="but-num">4</button>
+    <button class="but-num">3</button>
+    <button class="but-num">2</button>
+    <button class="but-num">1</button>
     <button class="but-num">0</button>
     <button class="but-num">.</button>
-    <button class="but-num">AC</button>
+    <button class="but-num" onclick="myfun()">AC</button>
 </div>
+
+
 
   
 </div>

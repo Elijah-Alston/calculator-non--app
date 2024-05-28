@@ -44,6 +44,16 @@ background-color: rgb(27, 27, 27);
 color:#fff;
 border: solid 6px black;
 height: 200px;
+
+}
+
+.math-dis{
+    text-align: right;
+    font-size: 10em;
+    
+    padding: 15px;
+
+
 }
 
 .buttons-Wrapper{
@@ -85,6 +95,14 @@ grid-template-areas:
 .but-equal{
     grid-area: equal;
     font-size: 3em;
+    background-color: #fd782b;
+}
+
+.but-equal:hover{
+
+background-color: #ff8352;
+
+
 }
 
 .top-wrapper{
